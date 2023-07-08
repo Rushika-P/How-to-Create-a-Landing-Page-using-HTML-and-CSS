@@ -1,0 +1,200 @@
+*{
+  font-family: sans serif;
+  background-color:#eaeaea;;
+
+}
+#header-img{
+top:2rem;
+height:38px;
+position:absolute;
+float:left;
+  
+}
+.content{
+  margin-top: 80px;
+}
+#navbar, a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+    }
+
+#navbar, ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+#navbar>li {
+      display: inline-block;
+      margin-left: 10px
+    }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+height:38px;
+top: 0;
+right:0;
+
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 20;
+  display: flex;
+}
+.navigation li {
+  margin-right: 60px;}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+#sub{
+
+  text-align:center;
+  font-size:26px;
+  height:20px;
+ margin-bottom:40px;
+ 
+
+}
+form{
+ text-align:center;
+
+}
+
+#email{
+  width: 270px;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom:20px;
+   background-color:white;
+}
+
+#nav-bar {
+float:right;
+position: fixed;
+display:flex;
+top: 0;
+right:0;
+z-index: 9999;
+width:auto;
+ }
+ 
+ #submit{
+  background-color:#FFD700;
+  font-size:20px;
+  font-weight:bold;
+  margin-bottom:300px;
+  
+}
+.nav-link{
+  
+font-size:20px
+}
+a:hover{
+  color: black;
+}
+a:visited:hover {
+  color: black;
+}
+a{
+  color:black;
+}
+#img{
+  width:80px;
+  
+}
+#features{
+  overflow: auto;
+  text-align:center;
+  font-weight:solid;
+  font-size:23px;
+  bottom:2rem;
+  
+  
+}
+body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+ 
+#features #img {
+  float: left;
+  margin-right: 20px;
+  max-width: 100%;
+  height: auto;
+ 
+
+}
+ #features p{
+      display: block;
+      text-align: left;
+ }
+
+@media only screen and (max-width: 550px) {
+  #header {
+    font-size: 6rem;
+  }
+}
+p{
+  border:0;
+}
+#How-It-Works{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+
+  
+
+}
+#video{
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:80px;
+
+}
+.navbar li {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+.pricing {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid black;
+      margin-bottom:70px;
+    }
+  td{
+    text-align:center;
+  }
+
+  th, td {
+      border: 1px  transparent;
+      padding: 15px;
+      
+    }
+    th{
+      background-color:lightgrey;
+    }
+    #button{
+      background-color:#FFD700;
+  font-size:15px;
+    }
